@@ -13,9 +13,9 @@
   integrity sha512-s4WseSoXWUEXDDrsQ06Z4HU9qEUSYQrF1tkjuXn/RNkoz6HK5dsbw4+uk9nwyR4im24lVmBYgiAhOf9YSoEhow==
 
 "@autofiy/rai-core@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@autofiy/rai-core/-/rai-core-1.1.0.tgz#26bfa4bbf27a94e8457c25bb150ff526af507bb1"
-  integrity sha512-Mx59atJNSVGprOtjctHW6IrhBG81sGfejP8BY7BdNcg5rmorVEyInOUcsnCXA0hCwj8odmPvGZBhvV4592TqTQ==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@autofiy/rai-core/-/rai-core-1.2.0.tgz#f0363075779c60668a7b3c8bd19a6d09f85aef99"
+  integrity sha512-cdEdPuiKm0za6Dk+L1SEHr7t870C46KwwiyaMjSFDJBUf9ZbLT5c60cGe6cbrjrrNXhzTty6pPnmRFTg2ibjKA==
   dependencies:
     "@autofiy/autofiyable" "^1.1.0"
     "@autofiy/property" "^1.0.0"
@@ -11168,11 +11168,6 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   integrity sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==
   dependencies:
     minimalistic-assert "^1.0.0"
-
-web-vitals@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-0.2.4.tgz#ec3df43c834a207fd7cdefd732b2987896e08511"
-  integrity sha512-6BjspCO9VriYy12z356nL6JBS0GYeEcA457YyRzD+dD6XYCQ75NKhcOHUMHentOE7OcVCIXXDvOm0jKFfQG2Gg==
 
 webidl-conversions@^5.0.0:
   version "5.0.0"
