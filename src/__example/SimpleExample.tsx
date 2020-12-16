@@ -16,6 +16,9 @@ export class SimpleExample extends React.Component {
                 position: "last",
                 title: "LINKS"
             }}
+            skipRender={{
+                yearsOfExperience: () => true
+            }}
             container={MaterialSimpleContainer} />
     }
 }
