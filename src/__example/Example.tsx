@@ -1,6 +1,7 @@
 import { Box, Container, Divider, FormControlLabel, Radio, RadioGroup } from "@material-ui/core";
 import * as React from "react";
 import { CardExample } from "./CardExample";
+import { SGCExample } from "./SGCExample";
 import { SimpleExample } from "./SimpleExample";
 import { TableExample } from "./TableExample";
 
@@ -21,6 +22,7 @@ export class Example extends React.Component<any, State> {
             case "simple": component = <SimpleExample />; break;
             case "table": component = <TableExample />; break;
             case "card": component = <CardExample />; break;
+            case "scg": component = <SGCExample />; break;
         }
 
         return <Container>
@@ -33,6 +35,7 @@ export class Example extends React.Component<any, State> {
                         <FormControlLabel value="simple" control={<Radio />} label="Simple" />
                         <FormControlLabel value="table" control={<Radio />} label="Table" />
                         <FormControlLabel value="card" control={<Radio />} label="Card" />
+                        <FormControlLabel value="scg" control={<Radio />} label="SimpleCardGroup" />
 
                     </RadioGroup>
                 </Box>

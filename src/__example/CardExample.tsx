@@ -10,7 +10,7 @@ export class CardExample extends React.Component {
             properties={{ renderValue: customValueRenderers() }}
             groups={{
                 basic: { properties: ["name", "birthDate", "email", "phone", "image"], title: "BASIC INFO" },
-                about: { properties: ["education", "job", "yearOfExperience"], title: "ABOUT" }
+                about: { properties: ["education", "job", "yearsOfExperience"], title: "ABOUT" }
             }}
             remainingProperties={{
                 position: "last",
