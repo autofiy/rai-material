@@ -11,6 +11,9 @@ export interface IMaterialAutoInfoDefault {
             itemSpace: number,
             direction: Direction;
             gapPx: number;
+        },
+        sgc: {
+            cardPaddingPx: number;
         }
     }
 }
@@ -25,9 +28,12 @@ export const MATERIAL_AUTO_INFO_DEFAULTS: IMaterialAutoInfoDefault = {
         },
         table: {},
         simple: {
-            itemSpace: 1,
+            itemSpace: 2,
             direction: Direction.VERTICAL,
             gapPx: 2
+        },
+        sgc: {
+            cardPaddingPx: 8
         }
     }
 }
