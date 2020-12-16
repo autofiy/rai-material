@@ -28,7 +28,7 @@ export const MATERIAL_AUTO_INFO_DEFAULTS: IMaterialAutoInfoDefault = {
         },
         table: {},
         simple: {
-            itemSpace: 2,
+            itemSpace: 1,
             direction: Direction.VERTICAL,
             gapPx: 2
         },
